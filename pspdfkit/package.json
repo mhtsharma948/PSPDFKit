@@ -1,0 +1,38 @@
+{
+  "_from": "https://customers.pspdfkit.com/npm/nyFK9XNoDpeMC1HToYCWCaS7EeUFGx/latest.tar.gz",
+  "_id": "pspdfkit@2018.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-nKti33fitFKGYO5pXZFUOnno99j16fNlaIMiQFFGc1GZkMiL27ElVTY7fcux9UkyJMqTyvspUZ+ZYakPOY7Jqw==",
+  "_location": "/pspdfkit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://customers.pspdfkit.com/npm/nyFK9XNoDpeMC1HToYCWCaS7EeUFGx/latest.tar.gz",
+    "rawSpec": "https://customers.pspdfkit.com/npm/nyFK9XNoDpeMC1HToYCWCaS7EeUFGx/latest.tar.gz",
+    "saveSpec": "https://customers.pspdfkit.com/npm/nyFK9XNoDpeMC1HToYCWCaS7EeUFGx/latest.tar.gz",
+    "fetchSpec": "https://customers.pspdfkit.com/npm/nyFK9XNoDpeMC1HToYCWCaS7EeUFGx/latest.tar.gz"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://customers.pspdfkit.com/npm/nyFK9XNoDpeMC1HToYCWCaS7EeUFGx/latest.tar.gz",
+  "_shasum": "416d0a69bae4c156853fbeaadce8d715b1fe3159",
+  "_spec": "https://customers.pspdfkit.com/npm/nyFK9XNoDpeMC1HToYCWCaS7EeUFGx/latest.tar.gz",
+  "_where": "/home/mohit-sharma/projects/pspdfTest",
+  "author": {
+    "name": "PSPDFKit",
+    "url": "https://pspdfkit.com"
+  },
+  "bugs": {
+    "url": "https://pspdfkit.com/guides/web/current/pspdfkit-for-web/troubleshooting"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "PSPDFKit for Web",
+  "homepage": "https://pspdfkit.com/web",
+  "license": "SEE LICENSE IN https://pspdfkit.com/license.pdf",
+  "main": "dist/pspdfkit.js",
+  "name": "pspdfkit",
+  "version": "2018.3.2"
+}
