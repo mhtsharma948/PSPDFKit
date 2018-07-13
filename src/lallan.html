@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <base href="/" />
+    <script src="http://developer.intelinotion.com:5000/pspdfkit.js"></script>
+    <title>Angular Seed Project</title>
+</head>
+
+<body>
+    <tyn-app>Loading...</tyn-app>
+    <div class="row" id="pspdfkit" style="width: 100%; height: 480px;"></div>
+    <script>
+        PSPDFKit.load({
+                serverUrl: 'http://developer.intelinotion.com:5000/',
+                container: '#pspdfkit',
+                documentId: '55',
+                authPayload: {
+                    jwt: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDc3NzUxMzIsImRvY3VtZW50X2lkIjoiNTUiLCJwZXJtaXNzaW9ucyI6ImFsbCIsImlhdCI6MTUzMTQ4MDg4M30.jvZz5-sHAC97l0A8nv-LFGrG8fQk2yUpsAN5Xm45NEskktJ-3KtSAvKAUrmzBOtTe4XUzKXmkaqF7bh-rLpq22Clu9fXJvsFsgBO2VayioSVAqi7w7Q9Y72FyfmgvoF9tdXpEtiu9aaSp4xzo65wiK9rbnGDVu8Fyl81sUijfNe1oyJxzRRgWQCQRdRqVtMpc8uOkY4_KEdsWKfv-GidozNGBEjsN_q4zD5F5k-JMosb39t1eiBxdDAHyUj5BQO_xhYHNnUd-1UkuTJSn1LLtQgD5AM0b0T9KL_Hf_h2NXAJ70FEuLuhCb8UxaSAOFtRFRnGKz7kIUcmGyCcb-TjhSCaA3k1-m3Dea-SgcUAaVfwUblfi41vf3199vbVvInxxyFhNeBTgXy2v0hEKb_p74eVTNGbX-Rsge5CwxQ4hlO-P_K8REP0R57VWIqB0Q7GRoGvsP0x147oUOQ-ihRHIWldcghWqNPOkriv0VBFQs-dtdvGOJes-yS1NWLR8vifz00kCbMEXXOvhxooSpzUDkcoLjpyABjOeg2Il2-b91LAMxvTnabr7_IcOhg5KnKLfIaPp48-2y7-a0Sq0smkqFnE8sLU3BQ3bjlTRTVSqwkcS78bRLqbzBvDhp2rX4jV5UWrYv6MYtPtnxj232wTRlSjyh_DETczF1HSx7dPTFU"
+                },
+                instant: false
+            })
+            .then((result11) => {
+                console.log(result11);
+            })
+            .catch((error) => {
+                console.log(error);
+            })
+    </script>
+</body>
+
+</html>
